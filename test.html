@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test de Orientare</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #60a5fa, #3b82f6);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .question {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .question h3 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .question input {
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .question button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .question button:hover {
+      background-color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ghidul Elevului - Test de Orientare</h1>
+    <nav>
+      <a href="acasa.html">Înapoi la Acasă</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Începe Testul de Orientare</h2>
+    <p>Răspunde la întrebările următoare pentru a descoperi ce facultate și carieră ți se potrivesc cel mai bine.</p>
+  </section>
+
+  <section class="section">
+    <!-- Întrebarea 1 -->
+    <div class="question">
+      <h3>Care domeniu te interesează cel mai mult?</h3>
+      <input type="text" placeholder="De exemplu: IT, medicină, artă" />
+    </div>
+
+    <!-- Întrebarea 2 -->
+    <div class="question">
+      <h3>Cum te simți lucrând cu echipe?</h3>
+      <input type="text" placeholder="De exemplu: Foarte confortabil, Nu prea confortabil, etc." />
+    </div>
+
+    <!-- Întrebarea 3 -->
+    <div class="question">
+      <h3>Ce îți dorești cel mai mult în cariera ta?</h3>
+      <input type="text" placeholder="De exemplu: Stabilitate financiară, provocări intelectuale" />
+    </div>
+
+    <!-- Butonul de trimitere -->
+    <div class="question">
+      <button onclick="location.href='rezultate.html'">Arata rezultatul</button>
+    </div>
+  </section>
+
+</body>
+</html>
